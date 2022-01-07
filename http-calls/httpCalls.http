@@ -1,0 +1,22 @@
+
+
+###
+GET http://localhost:8080/odata/v4/MasterDataService/NetworkObjectTypes
+
+###
+POST http://localhost:8080/odata/v4/FDCService/WellCompletionTest
+Content-Type: application/json
+
+
+{
+    "networkObjectID" : "PN1_HANA_CLOUD",
+    "wellCompletionID" : "WELL1+WC1",
+    "wellID" : "WELL1",
+    "medium" : "GAS",
+    "dimension" : "Volume",
+    "measurement" : "HEAT_VALUE",
+    "quantity" : 13.2,
+    "UOM" : "BBL"
+
+
+}

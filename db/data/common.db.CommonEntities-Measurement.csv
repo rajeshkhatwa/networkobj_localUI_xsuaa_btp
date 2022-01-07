@@ -1,0 +1,7 @@
+measurement;description
+GAS_HVALUE_BC2;Gas Heat Value 
+DENSITY;Density
+ENVL_STD_C_ENGY;Energy
+FPRS_OBS_PRESS;Flow Line Pressure
+GASVOLUME;Gas Volume
+GSLR_RATE;Gas Lift Rate

@@ -1,0 +1,7 @@
+measurement;locale;description
+GAS_HVALUE_BC2;de;Gasheizwert
+DENSITY;de;Dichte
+ENVL_STD_C_ENGY;de;Energie
+FPRS_OBS_PRESS;de;Druck in der Durchflussleitung
+GASVOLUME;de;Gasvolumen
+GSLR_RATE;de;Gasliftrate
