@@ -29,17 +29,7 @@ entity WellCompletionTests : cuid, managed, temporal {
 
 }
 
-define view WellCompletionTestsView as
-    select from WellCompletionTests as TestValues {
-            ID,
-            networkObjectID,
-            wellID,
-            wellCompletionID,
-            effectiveFrom,
-            effectiveTo,
-            medium,
 
-    };
 
 
 entity WCTestsItems : cuid, Ctypes.Quantity {

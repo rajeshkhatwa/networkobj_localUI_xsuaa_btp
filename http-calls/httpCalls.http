@@ -3,6 +3,35 @@
 ###
 GET http://localhost:8080/odata/v4/MasterDataService/NetworkObjectTypes
 
+
+###
+GET http://localhost:8080/odata/v4/MasterDataService/ProdNetworks
+
+###
+GET http://localhost:8080/odata/v4/MasterDataService/Countries
+
+
+###
+GET http://localhost:8080/odata/v4/FDC/WCTests
+
+###
+GET http://localhost:8080/odata/v4/FDC/WCTestsItems
+
+
+###
+GET http://localhost:8080/odata/v4/FDC/Worklist
+
+
+###
+GET http://localhost:8080/odata/v4/FDC/WCTests?$expand=items
+
+
+
+
+
+
+
+
 ###
 POST http://localhost:8080/odata/v4/FDCService/WellCompletionTest
 Content-Type: application/json

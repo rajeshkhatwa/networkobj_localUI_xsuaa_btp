@@ -32,7 +32,7 @@ service FDCService  @(path : '/FDC')
    entity Measurements  as projection on CommonObj.Measurement;
 
    view Worklist as select from FDC.WCTestWorklist;
-   view WCTestsView as select from FDC.WellCompletionTestsView;
+   
 
 }
 
