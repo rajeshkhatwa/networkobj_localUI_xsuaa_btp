@@ -6,8 +6,8 @@ using {common.db.Commments as commentType} from './Common';
 using {common.db.CommonEntities as commonEntities } from './Common';
 
 @cds.odata.valuelist
-entity NetworkObjects : cuid, managed {
-networkObjectID : String(30);
+entity NetworkObjects : managed {
+key networkObjectID : String(30);
 networkObjectType : Association to one commonEntities.NetworkObjectTypes;
 networkObjectDescription : localized String(60);
 productionNetwork : String(30);

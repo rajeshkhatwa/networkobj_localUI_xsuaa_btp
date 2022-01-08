@@ -1,3 +1,3 @@
-ID;networkObjectID_ID;wellCompletionID_ID;wellID_ID;medium_medium;dimension_dimension;comments;validFrom;validTo
-02BD2137-0890-1EEA-A6C2-BB55C18DC7AB;PN-RJ-DG;WC-RJ-DG;WELL-RJ-DG;OIL;VOLUME;Test Data only;2021-01-01;2021-12-31
-02BD2137-0890-1EEA-A6C2-BB55C18DC7AC;PN-RJ-AJ;WC-RJ-AJ;WELL-RJ-AJ;OIL;VOLUME;Test Data only;2021-03-01;2021-10-31
+ID;networkObjectID_networkObjectID;wellCompletionID_networkObjectID;wellID_networkObjectID;medium_medium;dimension_dimension;comments;validFrom;validTo
+02BD2137-0890-1EEA-A6C2-BB55C18DC7AB;PN-RJ-DG;WC-RJ-DG;WELL-RJ-DG;OIL;VOLUME;Test Data only;2021-01-01;2022-12-31
+02BD2137-0890-1EEA-A6C2-BB55C18DC7AC;PN-RJ-AJ;WC-RJ-AJ;WELL-RJ-AJ;OIL;VOLUME;Test Data only;2021-03-01;2022-10-31

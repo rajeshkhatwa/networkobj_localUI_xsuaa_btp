@@ -13,8 +13,8 @@ using {common.db.CommonEntities as commonEntities} from './Common';
 
 
 entity WellCompletionTests : cuid, managed, temporal {
-    // networkObjectID : Association to one MD.ProductionNetworks;  // ProductionNetworks is a view and it cannot work on it in the association like this
-    networkObjectID  : Association to one MD.NetworkObjects; // Here it is Production Network
+    //networkObjectID1 : Association to one MD.ProductionNetworks;  // ProductionNetworks is a view and it cannot work on it in the association like this
+    networkObjectID  : Association to one MD.ProductionNetworks; // Here it is Production Network
     wellCompletionID : Association to one MD.NetworkObjects;
     wellID           : Association to one MD.NetworkObjects;
     effectiveFrom    : Timestamp;
