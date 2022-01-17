@@ -1,0 +1,61 @@
+{
+    "_version": "1.8.0",
+    "sap.app": {
+      "id": "networkObjects",
+      "type": "application",
+      "title": "Network Objects",
+      "description": "Network Objects",
+      "dataSources": {
+        "networkObjects": { 
+          "uri": "/odata/v4/MasterDataService/", 
+          "type": "OData",
+          "settings": {
+            "odataVersion": "4.0"
+          }
+        }
+      }
+    },
+    "sap.ui5": {
+      "dependencies": {
+        "libs": {
+          "sap.fe": {}
+        }
+      },
+      "models": {
+        "": {
+          "dataSource": "networkObjects",
+          "settings": {
+            "synchronizationMode": "None",
+            "operationMode": "Server",
+            "autoExpandSelect": false,
+            "earlyRequests": false,
+            "groupProperties": {
+              "default": {
+                "submit": "Auto"
+              }
+            }
+          }
+        }
+      },
+      "routing": {
+        "routes": [ {
+          "pattern": ":?query:", 
+          "name": "NetworkObjects",
+          "target": "NetworkObjects"
+        }
+        ],
+        "targets": {
+          "NetworkObjects": {
+              "type": "Component",
+              "id": "networkObjects",
+              "name": "sap.fe.templates.ListReport",
+              "options": {
+                "settings": {
+                  "entitySet": "NetworkObjects"
+                                 }
+              }
+            }
+        }
+      }
+    }
+  }    
