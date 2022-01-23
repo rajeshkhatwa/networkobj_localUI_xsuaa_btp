@@ -12,11 +12,12 @@ service MasterDataService @(path : '/MasterDataService')
  entity Measurements  as projection on CommonObj.Measurement;
  entity NetworkObjectTypes as projection on CommonObj.NetworkObjectTypes;
 
- view ProdNetworks as select from MD.ProductionNetworks;
+ view ProductionNetworks as select from MD.ProductionNetworks;
+ view ProductionNetworksVH  @(cds.redirection.target:false) as select from MD.ProductionNetworksVH;
 
  entity NetworkObjects as projection on MD.NetworkObjects;
 
- view PDNetRedefined as select from MD.ProductionNetworks;
+
  
 }
 

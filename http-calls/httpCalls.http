@@ -26,9 +26,18 @@ GET http://localhost:8080/odata/v4/FDC/Worklist
 GET http://localhost:8080/odata/v4/FDC/WCTests?$expand=items
 
 
+###
+GET http://localhost:8080/odata/v4/MasterDataService/NetworkObjects('PN-RJ-AJ')/networkObjectType
+
+###
+GET http://localhost:8080/odata/v4/MasterDataService/NetworkObjects('PN-RJ-AJ')/networkObjectType/description
+
+###
+GET http://localhost:8080/odata/v4/MasterDataService/NetworkObjects('PN-RJ-AJ')/country
 
 
-
+###
+GET http://localhost:8080/odata/v4/MasterDataService/NetworkObjects('PN-RJ-AJ')/country/descr
 
 
 

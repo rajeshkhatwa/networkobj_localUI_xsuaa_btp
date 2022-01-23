@@ -1,7 +1,7 @@
-networkObjectID;networkObjectDescription;networkObjectType_networkObjectType;productionNetwork
-PN-RJ-DG;Onshore Drilling in QK Region;PN;PN-RJ-DG
-WELL-RJ-DG;WELL Onshore in QK Region;WELL;PN-RJ-DG
-WC-RJ-DG;Well Completion Onshore in QK Region;WC;PN-RJ-DG
-PN-RJ-AJ;Onshore Drilling in AJ Region;PN;PN-RJ-AJ
-WELL-RJ-AJ;WELL Onshore AJ Region;WELL;PN-RJ-AJ
-WC-RJ-AJ;Well Completion Onshore AJ Region;WC;PN-RJ-AJ
+networkObjectID;networkObjectDescription;networkObjectType_networkObjectType;productionNetwork;country_code
+PN-RJ-DG;Onshore Drilling in QK Region;PN;PN-RJ-DG;US
+WELL-RJ-DG;WELL Onshore in QK Region;WELL;PN-RJ-DG;DE
+WC-RJ-DG;Well Completion Onshore in QK Region;WC;PN-RJ-DG;UK
+PN-RJ-AJ;Onshore Drilling in AJ Region;PN;PN-RJ-AJ;US
+WELL-RJ-AJ;WELL Onshore AJ Region;WELL;PN-RJ-AJ;DE
+WC-RJ-AJ;Well Completion Onshore AJ Region;WC;PN-RJ-AJ;UK
