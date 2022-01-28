@@ -1,5 +1,6 @@
 ---
 spring:
+  web.resources.static-locations: "file:./app/webapp"
   config.activate.on-profile: default
   datasource:
     url: "jdbc:sqlite:/home/user/projects/WellCompletion/sqlite.db"
@@ -7,3 +8,13 @@ spring:
     initialization-mode: never # original value always ...if you keep always on starting your entries would be deleted
     hikari:
       maximum-pool-size: 1
+
+
+cds:
+  security.mock.users:
+   - name: admin
+     password: admin
+     roles:
+     - admin  
+   - name: user
+     password: user
