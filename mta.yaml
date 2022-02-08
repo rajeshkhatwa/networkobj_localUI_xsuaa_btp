@@ -31,6 +31,7 @@ modules:
    requires:
     # Resources extracted from CAP configuration
     - name: WellCompletion-db
+    - name: uaa_WellCompletion
    provides:
     - name: srv-api      # required by consumers of CAP services (e.g. approuter)
       properties:
@@ -61,4 +62,9 @@ resources:
    properties:
      hdi-service-name: ${service-name}
 
-
+ - name: uaa_WellCompletion
+   type: org.cloudfoundry.managed-service
+   parameters:
+      path: ./xs.security.json
+      service: xsuaa
+      service-plan: application

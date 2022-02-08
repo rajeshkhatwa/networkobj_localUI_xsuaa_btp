@@ -1,0 +1,37 @@
+{
+  "xsappname": "srv",
+  "tenant-mode": "dedicated",
+  "scopes": [
+    {
+      "name": "$XSAPPNAME.MasterDataAdmin",
+      "description": "MasterDataAdmin"
+    }
+  ],
+  "attributes": [
+    {
+      "name": "countryassigned",
+      "description": "countryassigned",
+      "valueType": "s",
+      "valueRequired": false
+    }
+  ],
+  "role-templates": [
+    {
+      "name": "MasterDataAdmin",
+      "description": "generated",
+      "scope-references": [
+        "$XSAPPNAME.MasterDataAdmin"
+      ],
+      "attribute-references": []
+    },
+    {
+      "name": "userattributes",
+      "description": "generated",
+      "default-role-name": "Attributes of a User",
+      "scope-references": [],
+      "attribute-references": [
+        "countryassigned"
+      ]
+    }
+  ]
+}
